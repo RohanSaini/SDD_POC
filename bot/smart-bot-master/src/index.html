@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>SmartBot</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<h1>💖 Hello World!</h1>
+		<p>Welcome to your Electron application.</p>
+	</body>
+
+	<script src="./scripts/client.js"></script>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Indian Army Legal Assistant</title>
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval';" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"> -->
+		<link rel="stylesheet" href="./assets/css/material-icons.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<div id="message_window">
+				<div class="disconnected">
+					Disconnected... reconnecting!
+				</div>
+				<div class="offline">
+					Offline! Reload to reconnect.
+				</div>
+				<section>
+					<div id="message_list">
+					</div>
+				</section>
+				<div id="message_replies">
+				</div>
+				<footer>
+					<div class="mic-wrapper">
+						<button id="mic_btn" class="mic-btn">
+							<i class="material-icons">
+								mic
+							</i>
+						</button>
+					</div>
+					<form id="user_input_form" onsubmit="Botkit.send(Botkit.input.value, event)">
+						<input type="text" autocomplete="off" id="messenger_input" placeholder="Type here..." />
+						<button type="submit" id="send_btn">Send</button>
+					</form>
+				</footer>
+			</div>
+		</div>
+		<script src="./scripts/client.js"></script>
+		<script src="./scripts/speech.js"></script>
+	</body>
+
+</html>
