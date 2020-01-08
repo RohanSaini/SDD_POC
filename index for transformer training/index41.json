@@ -1,0 +1,145 @@
+[
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 41,
+        "act_title": "maintext-0",
+        "doc": "(2)\t Any person subject to this Act who disobeys any lawful command given by his superior officer shall, on conviction by court-martial. ",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 41,
+        "tag": "maintext-1",
+        "item": "if he commits such offence when on active service, be liable to suffer imprisonment for a term which may extend to fourteen years or such less punishment as is in this Act mentioned; and",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 41,
+        "tag": "maintext-2",
+        "item": "if he commits such offence when on active service, be liable to suffer imprisonment for a term which may extend to five years or such less punishment as is in this Act mentioned.",
+        "act_references": []
+    },
+    {   "act_notes":"Note1",
+        "act_clause":"",
+        "act_number": 41,
+        "tag": "Act 41 Note1-0",
+        "item": "\t Offences under this section, when on active service, should not be dealt with summarily under Army Act section 80,83 or 84",
+        "act_references": [
+            "Army Act section 80",
+            "Army Act section 83",
+            "Army Act section 84"
+        ]
+    },
+    {   "act_notes":"Note2",
+        "act_clause":"",
+        "act_number": 41,
+        "tag": "Act 41 Note2-0",
+        "item": " \tAn offence under this section cannot be made the subject of a joint charge.",
+        "act_references": []
+    },
+    {   "act_notes":"Note3",
+        "act_clause":"",
+        "act_number": 41,
+        "tag": "Act 41 Note3-0",
+        "item": "\t Lawful Command. The command must be a specific command to an individual i.e., it must be capable of individual execution by the person to whom it is addressed and justified by military, as well as by civil, law and usage, e.g., a command addressed by a superior officer to four persons to \"dismiss\" is for the purposes of this section a lawful military command to each of the four persons so addressed. The command must relate to military duty that is to say disobedience to it must tend to impede, delay or prevent a military proceeding. The disobedience must have act_references to the time at which the command is to be obeyed. If the command be a lawful command, and demands a prompt and immediate compliance, hesitation or unnecessary delay in obeying it may be sufficient to constitute an offence under this section. A person who on being ordered to do a certain thing at some time, uses words expressing an intention not to obey and is immediately confined, does not commit an offence under this section. He should be charged under not Army Act section.40(c) or 63 according to the circumstances of the case. A neglect to carry out an order due to misapprehension, or forgetfulness, does not constitute an offence under this section though non-compliance with an order through forgetfulness or negligence would be chargeable under Army Act section.63.",
+        "act_references": [
+            "Army Act section.40(c)",
+            "Army Act section.63"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Sub sec (1)-0",
+        "act_number": 41,
+        "tag": "Act 41 Note4 Sub sec (1)-0",
+        "item": "(a) \tThe essential ingredients of this offence are that the disobedience should show a wilful defiance of authority and should be disobedience of a lawful command given personally in the execution of his office by a superior officer; in fact, it would ordinarily be such an offence as would fall under Army Act section,37 if two or more persons joined in it. In order, therefore, to convict an accused of an offence under this sub-sec it must be shown (i) that a lawful command was given by a superior officer, (ii) that it was given personally by such officer; (iii) that it was given by such officer in the execution of his office; (iv) that the accused disobeyed it, not from any misunderstanding or slowness but so as to show a wilful defiance of his superior officer's authority.",
+        "act_references": [
+            "Army Act section.37"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Sub sec (1)-1",
+        "act_number": 41,
+        "tag": "Act 41 Note4 Sub sec (1)-1",
+        "item": "(b)\tThe disobedience must be willful and deliberate, and distinguished from disobedience arising from forgetfulness or misapprehension (which might, however, be punished under Army Act section. 63). It is not disobedience in the sense of this section if a sepoy declines to sign his accounts on the grounds that they are incorrect; nor his failure to obey a command where obedience would be physically impossible.",
+        "act_references": [
+            "Army Act section. 63"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Sub sec (1)-2",
+        "act_number": 41,
+        "tag": "Act 41 Note4 Sub sec (1)-2",
+        "item": "(c) \tReligious scruples, however, bonafide, afford no justification for disobedience of commands which are clearly lawful.",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"Sub sec (1)-3",
+        "act_number": 41,
+        "tag": "Act 41 Note4 Sub sec (1)-3",
+        "item": "(d)\t Disobedience to an order of a general nature, as for instance to a regimental order or a para of regulations, is not chargeable under this section but under Army Act section.42(e) or 63.",
+        "act_references": [
+            "Army Act section.42(e)",
+            "Army Act section.63"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Note5-0",
+        "act_number": 41,
+        "tag": "Act 41 Note5-0",
+        "item": "\t(a) Superior officer; see Army Act section.3(xxiii). A 'superior officer' whose command has been restricted, either by the terms of his commission or by regulations, cannot give a lawful command to a person who is, by the terms of such restrictions, placed outside his control.",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"Note5-1",
+        "act_number": 41,
+        "tag": "Act 41 Note5-1",
+        "item": "(b)\t Disobedience of a lawful order given by a person who is not a superior officer within the meaning of Army Act section.3(xxiii) may be punishable under Army Act section.63 if the disobedience was prejudicial to good order and military discipline; for instance, a civilian cannot give a \"lawful command\" under this section to a soldier employed under him; but it may well be the soldier's duty as such to do the act indicated, and, if so, he may be punished for not doing it under Army Act section.63. The particulars of the charge should clearly show that the disobedience was prejudicial to good order and military discipline because the soldier had been placed under the orders of the civilian by a superior military authority.",
+        "act_references": [
+            "Army Act section.63",
+            "Army Act section.3(xxiii)"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Note5-2",
+        "act_number": 41,
+        "tag": "Act 41 Note5-2",
+        "item": "(c) \tThe particulars of the charge must set out the name of the superior officer and a charge for disobeying an order given by two different superior officers would be bad for duplicity. AR 30(1).",
+        "act_references": [
+            "AR 30(1)"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Note6-0",
+        "act_number": 41,
+        "tag": "Act 41 Note6-0",
+        "item": " \tIn the execution of his office; see note 7 to Army Act section.40.",
+        "act_references": [
+            "Army Act section.40"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Note7-0",
+        "act_number": 41,
+        "tag": "Act 41 Note7-0",
+        "item": " \tA court trying an accused for an offence under this sub sec could, if it was not satisfied that the order was given in the execution of the superior's office, find the accused guilty of an offence under sub sec (2) provided that in all other respects an offence under this section had been committed (Army Act section.139(7)).",
+        "act_references": [
+            "Army Act section.139(7)"
+        ]
+    },
+    {   "act_notes":"",
+        "act_clause":"Sub sec. (2)-0",
+        "act_number": 41,
+        "tag": "Act 41 Note8 Sub sec. (2)-0",
+        "item": "The offence under this sub sec is a less grave offence when not committed on active service and consists of disobedience of any lawful command given by a superior officer but not accompanied by the essential elements of the graver offence under sub sec (1).",
+        "act_references": []
+    },
+    {
+        "act_notes": "",
+        "act_clause": "Note9-0",
+        "act_number": 41,
+        "tag": "Act 41 Note9-0",
+        "item": " \tThe particulars of the charge must specify the command, the name of the superior officer giving it, the fact of disobedience and if the charge is laid under sub sec (1) also that it was given personally by superior officer in the execution of his office specifying the nature of the offence and the manner in which the disobedience showed a willful defiance of authority.",
+        "act_references": []
+    }
+]

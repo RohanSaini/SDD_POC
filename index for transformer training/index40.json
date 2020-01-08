@@ -1,0 +1,282 @@
+[  
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "maintext-0",
+        "doc": "Any person subject to this Act who commits any of the following offences, that is to say,\n",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "maintext-1",
+        "doc": "(a) \tuses criminal force to or assaults his superior officer; or",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "maintext-2",
+        "doc": "(b)\t uses threatening language to such officer; or",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "maintext-3",
+        "doc": "(c)\t uses insubordinate language to such officer; shall on conviction by court-martial,",
+        "act_references": []
+    },
+    {   "act_notes":"",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "maintext-4",
+        "doc": "if such officer is at the time in the execution of his office or, If the offence is committed on active service, be liable to suffer imprisonment for a term which may extend to fourteen years or such less punishment as is in this Act mentioned; and in other cases, be liable to suffer imprisonment for a term which may extend to ten years or such less punishment as is in this Act mentioned.   Provided that in the case of an offence specified in clause (e), the imprisonment shall not exceed five years.",
+        "act_references": []
+    },
+    {   "act_notes":"Note 1",
+        "act_clause":" Clause (a)",
+        "act_number": 40,
+        "act_title": "Act 40 Note1 Clause (a)-0",
+        "doc": "\tOffences under this clause should not be dealt with summarily under Army Act section 80,83 or 84.",
+        "act_references": [
+            "Army Act section 80",
+            "Army Act section 83",
+            "Army Act section 84"
+        ]
+    },
+    {   "act_notes":"Note2-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-0",
+        "doc": " \t(a) For definition of 'force', using criminal force and 'assault', see IPC.ss.349, 350 and 351 (PartIII).The difference between the offence mentioned in this clause will be clear from the following examples : ",
+        "act_references": [
+            "IPC.ss.349",
+            "IPC.ss.350",
+            "IPC.ss.351"
+        ]
+    },
+    {   "act_notes":"Note2-1",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-1",
+        "doc": "(i) \tA throws a stone at B. If the stone hits B, A has used criminal force, if it misses him, A has attempted to use criminal force.",
+        "act_references": []
+    },
+    {   "act_notes":"Note2-2",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-2",
+        "doc": "(ii) \tA, during an altercation with B, picks up a stone in a threatening manner. If A intends, or knows it to be likely, that this will cause B to believe that A is about to throw the stone at him. A commits an assault on B.",
+        "act_references": []
+    },
+    {   "act_notes":"Note2-3",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-3",
+        "doc": "An 'assault' is something less than the use of criminal force; the force being cut short before the blow actually falls. It seems to consist in an attempt or offer by a person having present ability, with force to do any hurt or violence to the person of another, and it is committed whenever a well founded apprehension of peril from a force partially or fully put in motion is created, e.g., when a person draws a bayonet or otherwise makes a show of violence against a superior but not when net is behind the bars or at such a distance as to rule out at the moment any actual use of criminal force An assault is thus included in every use of criminal force, and is an intermediate sact_titlee thereof.",
+        "act_references": []
+    },
+    {   "act_notes":"Note2-4",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-4",
+        "doc": "(b)\t If the force be used in the exercise of the right of private defence, for instance if it be shown that it was necessary, or that at the moment the accused had reason to believe it was necessary for his actual protection from injury, and that he used no more force than was reasonably necessary for this purpose, he is legally justified in using it and commits no offence. See IPC.ss.96,9102 (Part III).",
+        "act_references": []
+    },
+    {   "act_notes":"Note2-5",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-5",
+        "doc": "(c) \tProvocation is not a ground of acquittal, but tends to mitigate the punishment; evidence of provocation, if tendered, must therefore be admitted. Also see note 6 to AR 52.",
+        "act_references": []
+    },
+    {   "act_notes":"Note2-6",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note2-6",
+        "doc": "(d) As to intoxication as an excuse or defence to a charge under this section, see note4to AAs.48. ",
+        "act_references": []
+    },
+    {   "act_notes":"Note3-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note3-0",
+        "doc": "\t A joint charge under this clause can be sustained provided that the use of criminal force or assault was the result of a concerted action in furtherance of a common intent (IPC.s.34) though in some cases such concerted use of force may amount to an offence under AA. s.37(b) also.",
+        "act_references": []
+    },
+    {   "act_notes":"Note4-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note4-0",
+        "doc": " \tWhen use of criminal force to a superior is accompanied by insubordinate language, the use of criminal force only should be charged (assuming that the evidence is satisfactory) and the language would be admissible in evidence to show the manner in which the offence was committed.",
+        "act_references": []
+    },
+    {   "act_notes":"Note5",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note5",
+        "doc": " \tA person charged with using criminal force may be found guilty of an attempt to use criminal force or assault (Army Act section 139(8) and (3)).",
+        "act_references": [
+            "Army Act section 139(8)",
+            "Army Act section 139(3)"
+        ]
+    },
+    {   "act_notes":"Note6-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note6-0",
+        "doc": " \t(a) Superior OfficerSee Army Act section 3(xxiii).",
+        "act_references": []
+    },
+    {   "act_notes":"Note6-1",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note6-1",
+        "doc": "(b)\t While framing a charge under this section, the name of the superior officer shut be set out in the particulars of the charge.",
+        "act_references": []
+    },
+    {   "act_notes":"Note6-2",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note6-2",
+        "doc": "(c)\t The expression 'superior officer' in this section and in Army Act section 41 means not only a superior in rank but also a senior in the same grade where that seniority gives power of command according to the usages of the service, but one sepoy can never be the \"Superior officer\" of another. The court should be satisfied, before conviction, that the accused knew the person, with respect to whom the offence was committed, to be a superior officer .If the superior did not wear the insignia of his rank, and was not personally known to the accused, evidence would be necessary to show that the accused was otherwise aware of his being his superior officer, or had reason to believe him, to be this superior officer. If such evidence is not available, the accused should be charged under Army Act section 63 or 69.",
+        "act_references": [
+            "Army Act section 41",
+            "Army Act section 63",
+            "Army Act section 63"
+        ]
+    },
+    {   "act_notes":"Note6-3",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note6-3",
+        "doc": "(d)\t Where the accused is charged with an offence against a superior officer who is of the same grade, evidence must be adduced to show that the latter is senior to the accused.",
+        "act_references": []
+    },
+    {   "act_notes":"Note6-4",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note6-4",
+        "doc": "(e) \tThe lower the rank of the superior the less is the gravity of the offence. Also see Regs Army para 450.",
+        "act_references": []
+    },
+    {   "act_notes":"Note7-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note7-0",
+        "doc": "\t(a) The offence under this clause or clauses (b) and (c) is punishable more severely if such superior officer was at the relevant time in the execution of his office or if the offence is committed on active service. Such aggravating circumstances should not be averred in the particulars unless the case warrants severe punishment and it is intended to try the accused by a GCM.",
+        "act_references": []
+    },
+    {   "act_notes":"Note7-1",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note7-1",
+        "doc": "(b)\t It is difficult accurately to define the words 'in the execution of his office', but the military knowledge and experience of the members of a court-martial will enable them in most instances readily to determine whether the superior officer was or was not in the execution of his office. A superior officer in plain clothes may undoubtedly be in the execution of his office; but where the superior officer is in plain clothes, it becomes necessary to prove some knowledge on the part of the accused at the time of the offence that the person who was assaulted or to whom criminal force was used was a superior officer and that he was known to the accused as such, which is not the case where the superior officer is in uniform. On the other hand, there may be circumstances in which a superior officer in uniform is not in the execution of his office. It may be taken in general that using criminal force to or assaulting any superior officer by a person subject to AA over whom it is, at the relevant time, the duty of that superior officer to maintain discipline, would be using criminal force to or assaulting him in the execution of his office. ",
+        "act_references": []
+    },
+    {   "act_notes":"Note7-2",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note7-2",
+        "doc": "(c)\t When the accused is charged, with using criminal force to or assaulting his superior officer who is at the time in the execution of his office or if the accused is charged with committing the offence on active service and the court is satisfied that the offence was committed but not on active service or that the superior officer was not then in the execution of his office, he may be found guilty under Army Act section 139(7) of the same offence as having been committed in circumstances involving a less severe punishment.",
+        "act_references": [
+            "Army Act section 139(7)"
+        ]
+    },
+    {   "act_notes":"Note8",
+        "act_clause":"Clause (b)",
+        "act_number": 40,
+        "act_title": "Act 40 Note8 Clause (b)-0",
+        "doc": "A joint charge of using threatening or insubordinate language to a superior officer should not be preferred.",
+        "act_references": []
+    },
+    {   "act_notes":"Note9-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note9-0",
+        "doc": " \tWhere the charge is for using threatening or insubordinate language the particulars of the charge must state the expressions or their substance, and the superior to whom they were addressed. See note 7 above.",
+        "act_references": []
+    },
+    {   "act_notes":"Note10-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note10-0",
+        "doc": " \tExpressions, however offensive to a superior, that are used (a) in the course of a judicial, inquiry, (b) by a party to that inquiry, and (c) upon a matter pertinent to and bonafide for the purposes of that inquiry, as, for instance, the credibility of a witness, are privileged, and cannot be made the subject of a criminal charge.",
+        "act_references": []
+    },
+    {   "act_notes":"Note11-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note11-0",
+        "doc": ". Expressions used of a superior officer and not within his hearing, or which cannot be proved to be used to a superior officer, must be charged as an offence under Army Act section 63, and not under this section, but the use of threatening or otherwise insubordinate language regarding one superior to (in the sense that it is intended to be heard by) another superior constitutes an offence of using threatening or insubordinate language under this section.",
+        "act_references": [
+            "Army Act section 63"
+        ]
+    },
+    {   "act_notes":"Note12-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note12-0",
+        "doc": "\t Threatening language means language from which a person addressed may reasonably infer that criminal force may be used. This may be inferred either from the character of the words used or from the surrounding circumstances.",
+        "act_references": []
+    },
+    {   "act_notes":"Note13-0",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note13-0",
+        "doc": " \tWhereas all threatening language is insubordinate the converse is not true; therefore unless there is no doubt as to his intention an accused should be charged with using insubordinate language rather than threatening. A court may, however, if satisfied in other respects that an offence under this section has been committed, make a special finding when an accused is charged with the offence of using threatening language that he was guilty of using insubordinate language. (Army Act section 139(4)).",
+        "act_references": [
+            "Army Act section 139(4)"
+        ]
+    },
+    {   "act_notes":"Note14",
+        "act_clause":"Clause (c)",
+        "act_number": 40,
+        "act_title": "Act 40 Note14 Clause (c)-0",
+        "doc": "See notes 7 to 11 and 13 above.",
+        "act_references": []
+    },
+    {   "act_notes":"Note15",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note15-0",
+        "doc": " \tThe words must be used with an insubordinate intent, that is to say, they must be, either in themselves, or in the manner or circumstances in which they are spoken, insulting or disrespectful, and in all cases it must reasonably appear that they were intended to be heard by a superior. The words themselves need not necessarily be discourteous. If they indicate a deliberate intention to be insubordinate or resist lawful authority they may properly be regarded as disrespectful of authority, although courteously expressed. Where for instance a sepoy, having been given a lawful command which does not require immediate compliance, indicates respectfully that he does not intend to comply with it and is at once placed in arrest before being given a chance to comply, he may be charged with an offence under this section though not with an offence under Army Act section 41(2)",
+        "act_references": [
+            "Army Act section 41(2)"
+        ]
+    },
+    {   "act_notes":"Note16",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note16-0",
+        "doc": "\t Further a sepoy may in an outburst of temper or excdocent use violent language without intending to be in subordinate. Allowance should also be made for the use of coarse expressions by a person of inferior education which might often be used as mere expletives. These expressions might be insubordinate if used by an officer, a JCO or a senior NCO but not so when used by a junior NCO or a sepoy. These points must be considered by a court before convicting an accused of an offence under this clause. ",
+        "act_references": []
+    },
+    {   "act_notes":"Note17",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note17-0",
+        "doc": "\tAs to the use of coarse and abusive language by a person who is intoxicated, see note 6 to Army Act section 48.",
+        "act_references": [
+            "Army Act section 48"
+        ]
+    },
+    {
+        "act_notes": "Note18",
+        "act_clause": "",
+        "act_number": 40,
+        "act_title": "Act 40 Note18-0",
+        "doc": " \tThe words need not necessarily be spoken. If an accused writes a letter containing insubordinate expressions and addresses it to a superior officer, intending the letter to be read by the addressee, a charge would lie under this clause.",
+        "act_references": []
+    },
+    {   "act_notes":"Note19",
+        "act_clause":"",
+        "act_number": 40,
+        "act_title": "Act 40 Note19-0",
+        "doc": " \tThe use of what is commonly known as \"bad\" language need not necessarily give rise to a charge either under this section or Army Act section 63.",
+        "act_references": [
+            "Army Act section 63"
+        ]
+    }
+]
