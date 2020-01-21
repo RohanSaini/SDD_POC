@@ -1,0 +1,12 @@
+<div>
+	{{#ifCond processStatus.initializing process.status}}
+		<span><i class="material-icons status-icon spinning">replay</i></span>
+	{{/ifCond}}
+	{{#ifCond processStatus.initialized process.status}}
+		<span><i class="material-icons status-icon">check</i></span>
+	{{/ifCond}}
+	{{#ifCond processStatus.error process.status}}
+		<span><i class="material-icons status-iconn">error_outline</i></span>
+	{{/ifCond}}
+	{{process.name}} {{process.status}}
+</div>

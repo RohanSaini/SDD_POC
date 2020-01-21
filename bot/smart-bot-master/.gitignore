@@ -88,4 +88,8 @@ typings/
 # Electron-Forge
 out/
 
-elasticsearch/elasticsearch-7.5.0
+# Elaticsearch engine
+elasticsearch/elasticsearch*
+
+# Zip files
+*.zip

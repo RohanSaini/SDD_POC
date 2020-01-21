@@ -180,7 +180,11 @@ var CognitiveSpeech = {
       .catch((err) => {
         console.log('getting speech token error:', err);
       });
-  }
+	},
+	
+	speak() {
+		SpeechSDK.Speech
+	}
 };
 
 (function() {

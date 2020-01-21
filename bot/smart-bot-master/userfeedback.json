@@ -1,0 +1,14 @@
+{
+    "feedback": [
+        {
+            "userQuestion": "criminal force and assault difference",
+            "botResponse": "An 'assault' is something less than the use of criminal force; the force being cut short before the blow actually falls. It seems to consist in an attempt or offer by a person having present ability, with force to do any hurt or violence to the person of another, and it is committed whenever a well founded apprehension of peril from a force partially or fully put in motion is created, e.g., when a person draws a bayonet or otherwise makes a show of violence against a superior but not when net is behind the bars or at such a distance as to rule out at the moment any actual use of criminal force An assault is thus included in every use of criminal force, and is an intermediate stage thereof",
+            "userFeedback": "MT accidents resulting in death/serious injury. -\tRA Para 522"
+        },
+        {
+            "userQuestion": "example of criminal force",
+            "botResponse": "A throws a stone at B. If the stone hits B, A has used criminal force, if it misses him, A has attempted to use criminal force",
+            "userFeedback": "When use of criminal force to a superior is accompanied by insubordinate language, the use of criminal force only should be charged (assuming that the evidence is satisfactory) and the language would be admissible in evidence to show the manner in which the offence was committed"
+        }
+    ]
+}

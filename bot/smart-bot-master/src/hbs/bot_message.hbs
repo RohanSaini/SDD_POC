@@ -1,0 +1,62 @@
+<div class="message {{message.type}}">
+	<div class="message-avatar-container">
+		<img src=".\\assets\\images\\indian-army.png">
+	</div>
+	<div class="message-content-container">
+		{{#if message.isTyping}}
+			<div class="typing-indicator">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		{{else}}
+			<h4 class="message-title">Indian Army Legal Assistant</h4>
+		{{/if}}
+
+		{{{message.html}}}
+
+		{{#if message.restanswer}}
+			<hr>
+			<div class="accordion m-0" id="accordionExample">
+				<button class="btn btn-sm btn-link pl-0" type="button" data-toggle="collapse" data-target="#collapseOne"
+					aria-expanded="false" aria-controls="collapseOne">
+					Show more answers...
+				</button>
+
+				<div id="collapseOne" class="collapse m-0 mt-3" aria-labelledby="headingOne" data-parent="#accordionExample">
+					{{#message.restanswer}}
+						<div class="m-0 d-flex">
+							<div>
+								{{{_source.doc}}}
+								<br><br>
+								<mark>Source: {{{_source.tag}}}</mark>
+							</div>
+							<div class="form-check form-check-inline ml-2 align-items-start">
+								<input class="form-check-input" type="radio" id="inlineCheckbox1" value="{{_source.doc}}"
+									name="restanswer_feedback">
+							</div>
+						</div>
+						<hr class="my-3">
+					{{/message.restanswer}}
+					<button class="btn btn-sm btn-light" type="button" onclick="Client.saveResponseFeedback()">
+						Save Feedback
+					</button>
+				</div>
+			</div>
+		{{/if}}
+
+		{{#if message.open_link}}
+			<a href="{{{message.open_link}}}" target="_blank"
+				class="button_message">{{#if message.link_title}}{{message.link_title}}{{else}}{{message.open_link}}{{/if}}</a>
+		{{/if}}
+	</div>
+</div>
+{{#message.files}}
+	<div class="file_attachment">
+		{{#if image}}
+			<img src="{{{url}}}" alt="{{{url}}}" />
+		{{else}}
+			<a href="{{{url}}}" title="{{{url}}}">{{{url}}}</a>
+		{{/if}}
+	</div>
+{{/message.files}}

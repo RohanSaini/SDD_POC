@@ -1,181 +1,79 @@
-const { BotkitConversation } = require('botkit');
-const { PythonShell } = require('python-shell');
+const path = require('path');
 
-module.exports = function(controller) {
+module.exports = function (controller) {
+	// make public/index.html available as localhost/index.html
+	// by making the /public folder a static/public asset
+	controller.publicFolder('/', path.join(__dirname, '..', 'public'));
 
+	controller.middleware.receive.use(async (bot, message, next) => {
+		if (message.type === 'message' || message.type === 'hello')
+			await bot.reply(message, { type: 'typing' });
+		next();
+	});
 
+	controller.interrupts('exit', 'message', async (bot, message) => {
+		await bot.cancelAllDialogs();
+		await bot.reply(message, {
+			text:
+				`Hi I am your digital legal assistant. I can help you answer questions on:\n` +
+				`1. Army Acts 40 & 41.\n` +
+				`2. Court of Inquiry.\n` +
+				`3. Hearing of Charge.\n` +
+				`4. Incidents that have to be reported.`
+		});
+		await bot.beginDialog('enquiry');
+	});
 
-    controller.on('hello', async (bot, message) => {
-        await bot.changeContext(message.reference);
-        // await bot.beginDialog('enquiry');
-        setTimeout(async () => {
-          await bot.reply(message, {
-            text: 'Hi, I am your Legal digital assistant! How may I help you?',
-            quick_replies: [
+	console.log('Chat with me: http://localhost:' + (process.env.PORT || 3000));
 
-              {
-                title: 'Report an Incident',
-                payload: 'Report an Incident'
-              },
-              {
-                title: 'Army Act 40 and 41',
-                payload: 'Army Act 40 and 41'
-              },
-              {
-                title: 'Court Of Inquiry',
-                payload: 'Court Of Inquiry'
-              },
-              {
-                title: 'Hearing Of Charges',
-                payload: 'Hearing Of Charges'
-              }
-            ]
-          });
-        }, 1000);
-      });
+	controller.on('hello', async (bot, message) => {
+		await bot.changeContext(message.reference);
+		// await bot.beginDialog('enquiry');
+		setTimeout(async () => {
+			await bot.reply(message, {
+				text:
+					`Hi I am your digital legal assistant. I can help you answer questions on:\n` +
+					`1. Army Acts 40 & 41.\n` +
+					`2. Court of Inquiry.\n` +
+					`3. Hearing of Charge.\n` +
+					`4. Incidents that have to be reported.\n`+
+					`5. Investigation of offence`
+			});
+			await bot.beginDialog('enquiry');
+		}, 1000);
+	});
 
+	controller.hears(
+		[
+			'hi',
+			'hello',
+			'hey',
+			'help',
+			'home',
+			'helps',
+			'cancel',
+			'exit', 'main menu', 'main'
+		],
+		['message'],
+		async (bot, message) => {
+			setTimeout(async () => {
+				await bot.reply(message, {
+					text:
+						`Hi I am your digital legal assistant. I can help you answer questions on:\n` +
+						`1. Army Acts 40 & 41.\n` +
+						`2. Court of Inquiry.\n` +
+						`3. Hearing of Charge.\n` +
+						`4. Incidents that have to be reported.\n`+
+						`5. Investigation of offence`
+				});
+				await bot.beginDialog('enquiry');
+			}, 1000);
+		}
+	);
 
-    controller.hears(
-        [
-          'hi',
-          'hello',
-          'howdy',
-          'hey',
-          'aloha',
-          'hola',
-          'bonjour',
-          'oi',
-          'help',
-          'home',
-          'helps',
-          'cancel'
-        ],
-        ['message'],
-        async (bot, message) => {
-      
-            await bot.reply(message, {
-              text: 'Hi, I am your Legal digital assistant! How may I help you?',
-              quick_replies: [
-                {
-                  title: 'Report an Incident',
-                  payload: 'Report an Incident'
-                },
-                {
-                  title: 'Army Act 40 and 41',
-                  payload: 'Army Act 40 and 41'
-                },
-                {
-                  title: 'Court Of Inquiry',
-                  payload: 'Court Of Inquiry'
-                },
-                {
-                  title: 'Hearing Of Charges',
-                  payload: 'Hearing Of Charges'
-                }
-              ]
-            });
-    
-        }
-      );
-    
-    
-      controller.on('message,direct_message', async (bot, message) => {
-          await bot.reply(message, {
-            text: 'Sorry I am still learning. I can help you with',
-            quick_replies: [
-              {
-                title: 'Report an Incident',
-                payload: 'Report an Incident'
-              },
-              {
-                title: 'Army Act 40 and 41',
-                payload: 'Army Act 40 and 41'
-              },
-              {
-                title: 'Court Of Inquiry',
-                payload: 'Court Of Inquiry'
-              },
-              {
-                title: 'Hearing Of Charges',
-                payload: 'Hearing Of Charges'
-              }
-            ]
-          });
-    });
-
-
-    controller.hears(['incident','Report an Incident'], ['message'], async (bot, message) => {
-        setTimeout(async () => {
-            await bot.changeContext(message.reference);
-            await bot.beginDialog('incident');
-          }, 1000);
-      });
-
-
-      // controller.hears(['enquiry'], ['message'], async (bot, message) => {    
-      //     await bot.reply(message, {
-      //       text: 'From which document you want to make the enquiry?',
-      //       quick_replies: [
-      //         {
-      //           title: 'Army Act 40 and 41',
-      //           payload: 'Army Act 40 and 41'
-      //         },
-      //         {
-      //           title: 'Court Of Inquiry',
-      //           payload: 'Court Of Inquiry'
-      //         },
-      //         {
-      //           title: 'Hearing Of Charges',
-      //           payload: 'Hearing Of Charges'
-      //         }
-      //       ]
-      //     });
-
-      // });
-
-
-    controller.hears(['Army Act 40 and 41'],['message'], async (bot,message)=>{
-        await bot.changeContext(message.reference);
-        await bot.beginDialog('enquiry');
-    })
-
-    controller.hears(['Court Of Inquiry'],['message'], async (bot,message)=>{
-        await bot.changeContext(message.reference);
-        await bot.beginDialog('coie');
-    })
-
-    controller.hears(['Hearing Of Charges'],['message'], async (bot,message)=>{
-        await bot.changeContext(message.reference);
-        await bot.beginDialog('hoce');
-    })
-
-
-      controller.interrupts('exit','message', async(bot, message) => {
-        await bot.cancelAllDialogs();
-        await bot.reply(message, {
-            text: 'How may I help you further?',
-            quick_replies: [
-              {
-                title: 'Report an Incident',
-                payload: 'Report an Incident'
-              },
-              {
-                title: 'Army Act 40 and 41',
-                payload: 'Army Act 40 and 41'
-              },
-              {
-                title: 'Court Of Inquiry',
-                payload: 'Court Of Inquiry'
-              },
-              {
-                title: 'Hearing Of Charges',
-                payload: 'Hearing Of Charges'
-              }
-            ]
-          });
-       
-       });
-
-    
-
-}
+	controller.on('message,direct_message', async (bot, message) => {
+		await bot.reply(message, {
+			text: 'Sorry I am still learning. I can help you with'
+		});
+	});
+};
